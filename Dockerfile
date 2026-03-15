@@ -8,6 +8,10 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     unzip \
     curl \
+    build-essential \
+    gcc \
+    nodejs \
+    npm \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements file and install dependencies
@@ -25,11 +29,12 @@ RUN reflex init && \
     rm frontend.zip
 
 # Expose the ports for Reflex (8000 for backend, 3000 for frontend)
-EXPOSE 8000 3000
+EXPOSE 8001 3000
 
 # Set dynamic ports for reflex (frontend on 3000, backend on 8000)
 ENV FRONTEND_PORT=3000
-ENV BACKEND_PORT=8000
+ENV BACKEND_PORT=8001
+ENV REFLEX_USE_BUN=false
 
 # Run the application in production mode
-CMD ["reflex", "run", "--env", "prod", "--frontend-port", "3000", "--backend-port", "8000"]
+CMD ["reflex", "run", "--env", "prod", "--frontend-port", "3000", "--backend-port", "8001"]

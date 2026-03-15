@@ -37,6 +37,9 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
+    head_components=[
+        rx.html('<link rel="icon" href="/favicon.ico?v=1">')
+    ],
     theme=rx.theme(
         appearance="dark",
         accent_color="grass",
