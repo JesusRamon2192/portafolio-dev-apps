@@ -1,128 +1,126 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
-    "media": {
-        "email": "neo@metacortex.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+  "title": "Jesús Arnoldo Ramón Oyervides | Portafolio",
+  "description": "Soy Jesus, posiblemente el mejor programador de la historia.",
+  "image": "/avatar.png",
+  "avatar": "/avatar.png",
+  "name": "Jesús Arnoldo Ramón Oyervides",
+  "skill": "Desarrollador de Aplicaciones y Soluciones Digitales",
+  "location": "Saltillo, Coahuila, México",
+  "media": {
+    "email": "jesus.ramon2192@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/JesusRamon2192",
+    "likedin": "https://www.linkedin.com/in/programador-software-desarrollador-apps/"
+  },
+  "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+  "technologies": [
+    {
+      "icon": "devicon-javascript-plain",
+      "name": "JavaScript"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
-    "technologies": [
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    },
+    {
+      "icon": "devicon-bash-plain",
+      "name": "Bash"
+    },
+    {
+      "icon": "devicon-powershell-plain",
+      "name": "Ps1"
+    },
+    {
+      "icon": "devicon-googlecloud-plain",
+      "name": "IA"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Stellantis",
+      "subtitle": "Ingeniero de Mantenimiento",
+      "description": "Programo software respetable desde un cubículo.",
+      "date": "2016 -2024"
+    },
+    {
+      "icon": "rabbit",
+      "title": "SOPRIS",
+      "subtitle": "Ingeniero en Observabilidad",
+      "description": "Me encargo de salvar el mundo.",
+      "date": "2024 - Actualidad"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "bar-chart-4",
+      "title": "Simulador de Examen Google Artificial Intelligence",
+      "subtitle": "Preparacion para Certificacion Google",
+      "description": "Herramienta para practicar para el examen de certificacion de Google Artificial Intelligence.",
+      "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+          "icon": "devicon-javascript-plain",
+          "name": "JavaScript"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
         }
-    ],
-    "experience": [
+      ],
+      "image": "/project_1.png",
+      "url": "https://github.com/JesusRamon2192/google-ia-certificaton-simulator-exam",
+      "github": "https://github.com/JesusRamon2192/google-ia-certificaton-simulator-exam"
+    },
+    {
+      "icon": "bug-off",
+      "title": "Cubelytics",
+      "subtitle": "Entrenador CFOP",
+      "description": "Herramienta para practicar el metodo CFOP de resolucion de cubos de Rubik.",
+      "technologies": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+          "icon": "devicon-typescript-plain",
+          "name": "Typescript"
         }
-    ],
-    "projects": [
-        {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        }
-    ],
-    "training": [
-        {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
-    ]
+      ],
+      "image": "/project_2.png",
+      "url": "https://rubik.jesusmalo.org/",
+      "github": "https://github.com/JesusRamon2192/cubelytics"
+    }
+  ],
+  "training": [
+    {
+      "icon": "backpack",
+      "title": "Institituto Tecnologico de Saltillo",
+      "subtitle": "Ingenieria Mecatronica",
+      "description": "Informatica y Computación.",
+      "date": "Terminado",
+      "certificate": "Professional License: 10069891"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Platzi",
+      "subtitle": "Escuela en Linea",
+      "description": "Desarrollo de Software, Python, IA, Machine Learning.",
+      "date": "Terminado",
+      "certificate": "https://platzi.com/"
+    }
+  ],
+  "extras": [
+    {
+      "image": "/extra_1.png",
+      "title": "N8N Workflow Job Remote Hunter",
+      "description": "Busca, filtra y recopila las mejores ofertas de trabajo remoto.",
+      "url": "https://github.com/JesusRamon2192/job-remote-hunter"
+    },
+    {
+      "image": "/extra_2.png",
+      "title": "Webhook Telegram Bot",
+      "description": "Herramienta para analisis de payloads.",
+      "url": "https://github.com/JesusRamon2192/webhook-telegram-bot"
+    }
+  ]
 }

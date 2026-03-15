@@ -1,6 +1,55 @@
-*.db
-*.py[cod]
+# Environment & Secrets
+.env
 .venv
-.web
-__pycache__/
+env/
+venv/
+ENV/
+
+# Reflex Specific
+.web/
 public/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Database
+*.db
+*.sqlite
+
+# IDE/Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# OS Specific
+Thumbs.db
+.DS_Store
