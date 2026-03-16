@@ -7,7 +7,7 @@ from portafolio.styles.styles import Size
 
 def extra(extras: list[Extra]) -> rx.Component:
     return rx.vstack(
-        heading("Extra"),
+        heading("Certificaciones"),
         rx.mobile_only(
             rx.vstack(
                 *[

@@ -89,6 +89,29 @@
       "image": "/project_2.png",
       "url": "https://rubik.jesusmalo.org/",
       "github": "https://github.com/JesusRamon2192/cubelytics"
+    },
+    {
+      "icon": "workflow",
+      "title": "N8N Workflow Job Remote Hunter",
+      "subtitle": "Flujo automatizado para busqueda de empleo",
+      "description": "Busca, filtra y recopila las mejores ofertas de trabajo remoto.",
+      "technologies": [
+        {
+          "icon": "devicon-nodejs-plain",
+          "name": "N8N"
+        },
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-fastapi-plain",
+          "name": "APIs"
+        }
+      ],
+      "image": "/extra_1.png",
+      "url": "https://github.com/JesusRamon2192/job-remote-hunter",
+      "github": "https://github.com/JesusRamon2192/job-remote-hunter"
     }
   ],
   "training": [
@@ -111,16 +134,16 @@
   ],
   "extras": [
     {
-      "image": "/extra_1.png",
-      "title": "N8N Workflow Job Remote Hunter",
-      "description": "Busca, filtra y recopila las mejores ofertas de trabajo remoto.",
-      "url": "https://github.com/JesusRamon2192/job-remote-hunter"
+      "image": "/newrelic-foundation.jpg",
+      "title": "Fundamentos de New Relic",
+      "description": "Certificación enfocada en observabilidad con New Relic, incluyendo monitoreo de aplicaciones (APM), infraestructura, logs, análisis de métricas con NRQL y creación de dashboards y alertas.",
+      "url": "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fcredentials.newrelic.com%2F708cefbb-d6d3-4ce3-a530-9293bb53db8b&urlhash=0CF6&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BiJuxuqnURTmMUArdPbXPDg%3D%3D"
     },
     {
-      "image": "/extra_2.png",
-      "title": "Webhook Telegram Bot",
-      "description": "Herramienta para analisis de payloads.",
-      "url": "https://github.com/JesusRamon2192/webhook-telegram-bot"
+      "image": "/associatecloudengineer-spanish.jpg",
+      "title": "Associate Cloud Engieener",
+      "description": "Certificación enfocada en la implementación y operación de infraestructura en Google Cloud Platform, incluyendo despliegue de recursos, administración de redes, control de acceso (IAM) y monitoreo de servicios en entornos cloud.",
+      "url": "https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.credly.com%2Fbadges%2Fe5ec9e12-3c65-4806-bfd1-b4d099271a2f%2Flinked_in_profile&urlhash=o7S7&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BiJuxuqnURTmMUArdPbXPDg%3D%3D"
     }
   ]
 }

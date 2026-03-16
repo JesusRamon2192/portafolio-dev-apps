@@ -2,7 +2,7 @@ import reflex as rx
 from portafolio.components.icon_badge import icon_badge
 from portafolio.components.icon_button import icon_button
 from portafolio.data import Info
-from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
+from portafolio.styles.styles import IMAGE_HEIGHT, IMAGE_WIDTH, EmSize, Size
 
 
 def info_detail(info: Info) -> rx.Component:
@@ -59,7 +59,7 @@ def info_detail(info: Info) -> rx.Component:
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
-                width="auto",
+                width=["100%", IMAGE_WIDTH],
                 border_radius=EmSize.DEFAULT.value,
                 object_fit="cover"
             )

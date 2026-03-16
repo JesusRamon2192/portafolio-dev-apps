@@ -3,6 +3,7 @@ import reflex as rx
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
+IMAGE_WIDTH = "300px"
 
 
 class EmSize(Enum):
