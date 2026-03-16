@@ -12,7 +12,7 @@
     "github": "https://github.com/JesusRamon2192",
     "likedin": "https://www.linkedin.com/in/programador-software-desarrollador-apps/"
   },
-  "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+  "about": "Soy desarrollador de software enfocado en observabilidad, automatización y monitoreo de sistemas. Trabajo en una empresa especializada en analítica y monitoreo, donde me dedico a entender cómo se comportan los sistemas… y por las noches intento automatizar todo lo que se deje automatizar para que las máquinas trabajen más que yo. 🤖⚙️",
   "technologies": [
     {
       "icon": "devicon-javascript-plain",
@@ -37,18 +37,18 @@
   ],
   "experience": [
     {
-      "icon": "terminal",
-      "title": "Stellantis",
-      "subtitle": "Ingeniero de Mantenimiento",
-      "description": "Programaba software respetable desde un cubículo.",
-      "date": "2016 -2024"
-    },
-    {
       "icon": "rabbit",
       "title": "SOPRIS",
       "subtitle": "Ingeniero en Observabilidad",
-      "description": "Me encargo de observar el mundo de manera remota.",
+      "description": "Implemento estrategias de observabilidad y monitoreo para aplicaciones y sistemas distribuidos, utilizando dashboards, métricas y automatización para anticipar incidentes y mejorar la confiabilidad en producción.",
       "date": "2024 - Actualidad"
+    },
+    {
+      "icon": "terminal",
+      "title": "Stellantis",
+      "subtitle": "Ingeniero de Mantenimiento",
+      "description": "Lideraba un equipo de 6 personas en el mantenimiento de infraestructura de exteriores como oficinas, estacionamientos, aires acondicionados, suministros de servicios basicos como agua, luz y gas.",
+      "date": "2016 -2024"
     }
   ],
   "projects": [

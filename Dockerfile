@@ -21,6 +21,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . .
 
+# Set dynamic ports for reflex (frontend on 3000, backend on 8000)
+ENV FRONTEND_PORT=3000
+ENV BACKEND_PORT=8001
+ENV REFLEX_USE_BUN=false
+ENV REFLEX_USE_NPM=true
+ENV REFLEX_MANAGER=npm
+ENV TELEMETRY_ENABLED=false
+
 # Initialize reflex and export the frontend
 # We run reflex init and then export
 RUN reflex init && \
@@ -30,11 +38,6 @@ RUN reflex init && \
 
 # Expose the ports for Reflex (8000 for backend, 3000 for frontend)
 EXPOSE 8001 3000
-
-# Set dynamic ports for reflex (frontend on 3000, backend on 8000)
-ENV FRONTEND_PORT=3000
-ENV BACKEND_PORT=8001
-ENV REFLEX_USE_BUN=false
 
 # Run the application in production mode
 CMD ["reflex", "run", "--env", "prod", "--frontend-port", "3000", "--backend-port", "8001"]
