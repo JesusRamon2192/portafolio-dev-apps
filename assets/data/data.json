@@ -124,13 +124,36 @@
           "name": "React"
         },
         {
-          "icon": "devicon-fastapi-plain",
-          "name": "API"
+          "icon": "devicon-json-plain",
+          "name": "JSON"
         }
       ],
       "image": "/picture-tarotium.png",
       "url": "https://tarot.jesusmalo.org/",
       "github": "https://github.com/JesusRamon2192/tarotium"
+    },
+    {
+      "icon": "activity",
+      "title": "Raspberry Metrics con AWS",
+      "subtitle": "AWS Extraction Metrics to Grafana",
+      "description": "Mini plataforma de monitoreo inspirada en arquitecturas modernas de observabilidad.",
+      "technologies": [
+        {
+          "icon": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS"
+        },
+        {
+          "icon": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        }
+      ],
+      "image": "/dashboard.jpeg",
+      "url": "https://grafana.jesusmalo.org/public-dashboards/dfdd014c115245dd97890f9207ffe175",
+      "github": "https://github.com/JesusRamon2192/raspberry-metrics"
     }
   ],
   "training": [

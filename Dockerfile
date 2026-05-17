@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
     gcc \
     nodejs \
     npm \
+    && npm install -g bun \
+    && mkdir -p /root/.local/share/reflex/bun/bin \
+    && ln -s /usr/local/bin/bun /root/.local/share/reflex/bun/bin/bun \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements file and install dependencies
@@ -28,6 +31,7 @@ ENV REFLEX_USE_BUN=false
 ENV REFLEX_USE_NPM=true
 ENV REFLEX_MANAGER=npm
 ENV TELEMETRY_ENABLED=false
+ENV REFLEX_USE_SYSTEM_BUN=true
 
 # Initialize reflex and export the frontend
 # We run reflex init and then export
