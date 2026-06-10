@@ -114,23 +114,23 @@
       "github": "https://github.com/JesusRamon2192/job-remote-hunter"
     },
     {
-      "icon": "sparkles",
-      "title": "Tarotium",
-      "subtitle": "Lectura de Tarot Digital",
-      "description": "Aplicación web de lectura de Tarot interactiva con consumo de API.",
+      "icon": "activity",
+      "title": "Electric PC Consumption Monitoring",
+      "subtitle": "Python Extraction Metrics to New Relic",
+      "description": "Script para monitorizar el consumo eléctrico de una PC usando un enchufe inteligente Shelly y enviarlo a New Relic..",
       "technologies": [
         {
-          "icon": "devicon-react-original",
-          "name": "React"
+          "icon": "devicon-newrelic-plain",
+          "name": "New Relic"
         },
         {
-          "icon": "devicon-json-plain",
-          "name": "JSON"
+          "icon": "devicon-python-plain",
+          "name": "Python"
         }
       ],
-      "image": "/picture-tarotium.png",
-      "url": "https://tarot.jesusmalo.org/",
-      "github": "https://github.com/JesusRamon2192/tarotium"
+      "image": "/dashboardConsumption.png",
+      "url": "https://github.com/JesusRamon2192/energyConsumptionPcNewRelic",
+      "github": "https://github.com/JesusRamon2192/energyConsumptionPcNewRelic"
     },
     {
       "icon": "activity",
@@ -152,8 +152,27 @@
         }
       ],
       "image": "/dashboard.jpeg",
-      "url": "https://grafana.jesusmalo.org/public-dashboards/dfdd014c115245dd97890f9207ffe175",
+      "url": "https://github.com/JesusRamon2192/raspberry-metrics",
       "github": "https://github.com/JesusRamon2192/raspberry-metrics"
+    },
+    {
+      "icon": "sparkles",
+      "title": "Tarotium",
+      "subtitle": "Lectura de Tarot Digital",
+      "description": "Aplicación web de lectura de Tarot interactiva con consumo de API.",
+      "technologies": [
+        {
+          "icon": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "icon": "devicon-json-plain",
+          "name": "JSON"
+        }
+      ],
+      "image": "/picture-tarotium.png",
+      "url": "https://tarot.jesusmalo.org/",
+      "github": "https://github.com/JesusRamon2192/tarotium"
     }
   ],
   "training": [
