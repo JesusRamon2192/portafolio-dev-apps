@@ -53,6 +53,33 @@
   ],
   "projects": [
     {
+      "icon": "radar",
+      "title": "DevRadar",
+      "subtitle": "Análisis y puntuación de vacantes",
+      "description": "Aplicación web Full Stack para analizar y puntuar vacantes de trabajo con interfaz de usuario moderna y Dockerizada.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ],
+      "image": "/devRadar.png",
+      "url": "https://vacantes.jesusmalo.org/",
+      "github": "https://github.com/JesusRamon2192/job-radar"
+    },
+    {
       "icon": "bar-chart-4",
       "title": "Simulador de Examen Google Artificial Intelligence",
       "subtitle": "Preparacion para Certificacion Google",
