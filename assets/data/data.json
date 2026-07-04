@@ -54,7 +54,7 @@
   "projects": [
     {
       "icon": "radar",
-      "title": "DevRadar",
+      "title": "DevLATAM",
       "subtitle": "Análisis y puntuación de vacantes",
       "description": "Aplicación web Full Stack para analizar y puntuar vacantes de trabajo con interfaz de usuario moderna y Dockerizada.",
       "technologies": [
@@ -76,7 +76,7 @@
         }
       ],
       "image": "/devRadar.png",
-      "url": "https://vacantes.jesusmalo.org/",
+      "url": "https://devlatam.dev/",
       "github": "https://github.com/JesusRamon2192/job-radar"
     },
     {
